@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.98.0" />
+    <title>GitHub</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Travel.kg</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tours</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link Create Plan">Create Plan</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../assets/images/pre.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns=""
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Kyrgyzstan</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Distinctio corrupti, fugit numquam temporibus dolores aperiam
+                  et harum, quae molestias itaque ipsum quas dignissimos
+                  voluptatibus tenetur officiis ab quam accusamus velit.
+                </p>
+                <p>
+                  <a class="btn btn-dark btn-primary" href="#"> click </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/images/lol.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns=""
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Ysyk-Kol</h1>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt, necessitatibus ratione odio, corrupti quibusdam ducimus,
+                  nemo sequi libero doloribus voluptate expedita voluptatem
+                  suscipit! Numquam amet perferendis minima sint doloribus
+                  voluptates?
+                </p>
+                <p><a class="btn btn-dark btn-primary" href="#"> click </a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/images/sary.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Sary-Chelek</h1>
+                <p class="btn-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+                  vero ab id veniam, quis ad dolorem itaque, recusandae modi
+                  dolores nemo nihil eos numquam dignissimos et! Eos magnam
+                  neque doloremque?
+                </p>
+                <p>
+                  <a class="btn btn-dark btn-primary" href="#"> click </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <svg
+              class="bd-placeholder-img rounded-circle"
+              width="140"
+              height="140"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 140x140"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777" />
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+            </svg>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./kyrgyzstan-travel.jpg" alt="picture" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <title>Placeholder
+            
+          </title><rect width="100%" height="100%" fill="#777"/>
+          <text x="50%" y="50%" fill="#777" dy=".3em" >
+
+          </text>
+        </svg>
+
+        <h2 class="fw-normal">Tours</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi dignissimos optio placeat cumque expedita asperiores!</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./WhatsApp-Image-2021-09-24-at-3.54.15-PM.jpeg" alt="picture2" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2 class="fw-normal">Travel map</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ullam veritatis quam quibusdam ipsum qui?</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="./welcome.jpg.jpg" alt="picture3" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h2 class="fw-normal">Attractions</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores dolor, facilis voluptatem quasi sit pariatur.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              First featurette heading.
+              <span class="text-muted">It’ll blow your mind.</span>
+            </h2>
+            <p class="lead">
+              Some great placeholder content for the first featurette here.
+              Imagine some exciting prose here.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Our Goals <span class="text-muted"></span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nihil error consequatur praesentium perferendis reiciendis ab minima iure exercitationem voluptates sed aspernatur, quo nostrum. Dolor provident rerum aliquam ex excepturi aperiam laboriosam optio pariatur earum voluptas dolorum, voluptatem ipsum quas.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./970662.40ae0403136bf1b3af20f4c28ffbe11d.jpg" alt="picture4" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>
+          &copy; 2017–2022 Company, Inc. &middot;
+          <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+        </p>
+        <navbar>
+          <div class="wrapper">
+            <a href="#"><img src="./tvit.webp" alt="twitter" /></a>
+            <a href="#"><img src="./inst.webp" alt="instagram" /></a>
+            <a href="#"><img src="./fb.webp" alt="facebook" /></a>
+            <a href="#"><img src="./vk.webp" alt="vk" /></a>
+          </div>
+        </navbar>
+      </footer>
+    </main>
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Why Kyrgizstan? <span class="text-muted"></span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea minus porro officiis velit maiores pariatur molestiae assumenda voluptatibus quidem distinctio corporis hic, vitae veritatis delectus reprehenderit nam nemo aperiam ex repellendus, nihil autem at ad sed ipsam. Debitis, rem fuga.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./1027290153_1816_0_5133_3648_1920x0_80_0_0_dd42c7fa37a46cd0ae46e6a49281ce0f.jpg" alt="picture5" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Advantages of Kyrgizstan<span class="text-muted"></span></h2>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam nobis ea sit ipsum! Harum at sunt voluptatem id sapiente provident accusamus libero? Corporis quaerat, voluptates enim recusandae velit facilis adipisci minima at officia. Ut tempore iusto perferendis alias rem.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./Shangrak_2.jpg" alt="picture6" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>
